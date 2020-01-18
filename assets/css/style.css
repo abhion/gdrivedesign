@@ -56,3 +56,6 @@ header{
 #headerRightContainer{
     display: flex;
 }
+.search-icons{
+    line-height: 48px;
+}
