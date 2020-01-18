@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+}
+#logoContainer{
+    flex-basis: 15%;
+
+}
+#logoContainer a{
+    display: flex;
+    align-items: center;
+    color: rgb(95, 94, 94);
+}
+#logoContainer h3{
+    font-weight: 500;
+    margin-left: 8px;
+}
+#headerContent{
+    flex-grow: 1;
+    display: flex;
+
+}
+#headerSearchContainer{
+    flex-basis: 80%;
+    display: flex; 
+    height: 100%;
+}
+#headerSearchContainer *{
+    height: 100%;
+}
+#searchBox{
+    display: flex;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    align-items: center;
+}
+#headerSearchInp{
+    border: none;
+    flex-basis: 90%;
+     background-color: transparent;
+
+}
+#searchIconContainer{
+    flex-basis: 5%;
+    text-align: center;
+}
+#headerRightContainer{
+    display: flex;
+}
